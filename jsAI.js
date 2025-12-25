@@ -142,6 +142,7 @@ closeTaskFormBtn.addEventListener("click", () => {
   // Check if any fields have text in them
   const formInputsContainValues =
     titleInput.value || dateInput.value || descriptionInput.value;
+
   // Check if the current input is different from the original task data
   const formInputValuesUpdated =
     titleInput.value !== currentTask.title ||
